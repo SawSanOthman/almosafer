@@ -29,6 +29,11 @@ public class OOP {
 	String ExpectedDep = Integer.toString(Tomorrow);
 	int AfterDayTomorrow = LocalDate.now().plusDays(2).getDayOfMonth();
 	String ExpectedDep1 = Integer.toString(AfterDayTomorrow);
+
+	
+	//String expectedDeparture = String.format("%02d", Tomorrow);
+//	String ExpectedReturn = String.format("%02d",AfterDayTomorrow );
+
 	String[] EnglishCities = { "Dubai", "Jeddah", "Riyadh" };
 	String[] ArabicCities = { "دبي", "جده" };
 	int RandomEnglish = rand.nextInt(EnglishCities.length);
